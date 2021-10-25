@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherAPI</title>
+    <link rel="stylesheet" href="C:\Users\Nikki\WeatherAPI\WeatherAPI.CSS">
+
+</head>
+<body>
+
+    <div id="container">
+        <br>        
+        <span id="dateTime">
+            <h5>
+                <span id="date">
+                    <span id="todayDate">NA</span>
+                </span>
+                <span id="time"> 
+                    <span id="hours">H:</span>
+                    <span id="minutes">M:</span>
+                    <span id="seconds">S</span>
+                </span>
+            </h5>
+        </span>
+
+        <br>
+
+        <div id= current>
+            <h1>
+                <span id="currentTemp"> </span>
+            
+                <span id= currentDegree>&#8457;</span>
+            <br>
+                <span id="description">description</span>
+            </h1>
+        </div>
+
+        <img id="weatherIcon">
+               
+        <span id="locationName">
+            <h3>
+                <span id="cityName"> city </span>, <span id="regionName"> state </span>
+            </h3>
+        </span>
+            
+            <div id="hiLo">
+                <h3>
+                    <span>High: <span id="maxTemp"></span> <span id= maxDegree> &#8457; </span> </span>
+                    <br>
+                    <span>Low: <span id="minTemp"></span> <span id= minDegree> &#8457;</span> </span>
+                </h3>
+            </div>
+        
+<!--  ToDo: functionality for geolocation look up for weather.
+        <span id="newZip">
+            <p>Change Location: <input id="input" type="text" placeholder="Coming Soon..."></p>
+        </span>
+-->
+
+        <span id="weatherText"><h6>Weather API Project Powered by <a href="https://www.weatherapi.com/" title="Free Weather API">WeatherAPI.com</a> </h6></span>
+    
+
+
+    <script src="C:\Users\Nikki\WeatherAPI\WeatherAPI.JS"></script>
+</body>
+</html>
